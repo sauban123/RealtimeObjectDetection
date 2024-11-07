@@ -96,13 +96,6 @@ class MainActivity : AppCompatActivity() {
 
                 imageView.setImageBitmap(mutable)
 
-                // this code is for delayed
-
-                imageView.postDelayed({
-                    val blankBitmap = Bitmap.createBitmap(mutable.width, mutable.height, mutable.config)
-                    imageView.setImageBitmap(blankBitmap)
-                }, 2000)
-
 
             }
         }
